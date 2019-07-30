@@ -1,7 +1,7 @@
 /*
 Este é um trabalho da disciplina de compiladores feito na linguagem C
 O objetivo é criar um compilator toy que gere o código assemble corretamente 
-de acordo com uma linguagem predefinida
+de acordo com uma gramática predefinida
 
 Autor: Paulo Henrique de Oliveira Gomes
 Data: Agosto de 2017
