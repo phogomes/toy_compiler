@@ -1,0 +1,59 @@
+var gato:int;
+var macaco:int;
+var abacate:int;
+var i:int;
+var nome:string;
+{
+        read gato;
+        read macaco;
+        read abacate;
+        read nome;
+        write nome;
+        if (gato > macaco) then {
+            if(gato > abacate) then{
+                if(macaco > abacate) then{
+                    i = abacate;
+                    while( i =< gato ) do {
+                        write i;
+                        i = i+1;
+                    }
+                }else{
+                    i = macaco;
+                    while( i =< gato ) do{
+                        write i;
+                        i = i+1;
+                    }
+                }
+            }else{
+                i = macaco;
+                while( i =< abacate) do{
+                    write i;
+                    i = i+1;
+                }
+            }
+        }else {
+            if(macaco > abacate) then{
+                if(abacate > gato) then{
+                    i = gato;
+                    while( i =< macaco) do{
+                        write i;
+                        i = i+1;
+                    }
+                }else{
+                    i = abacate ;
+                    while(i =< macaco) do{
+                        write i;
+                        i = i+1;
+                    }
+                }
+            }else{
+                i = gato;
+                while ( i =< abacate ) do{
+                    write i;
+                    i = i+1;
+                 }
+            }
+        }
+        i = 10*2-(((10- 9) - 1));
+        write i;
+}
