@@ -76,7 +76,7 @@ int main(int argc,char *argv[]){
 
     o = fopen("outputFile.asm","w");
 	//leitura do arquivo
-	p = fopen("inputFile3.txt","r");
+	p = fopen("inputFile.txt","r");
     char aux[10];
     while(fscanf(p,"%s", aux) != EOF){
         strcat(input," ");
